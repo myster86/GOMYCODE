@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+}
+
+section {
+  max-width: 1500px;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title h1 {
+  width: 40%;
+  font-size: 3.8rem;
+  color: hsl(300, 43%, 22%);
+}
+
+.title p {
+  width: 50%;
+  font-size: 1.6rem;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.rating {
+  height: 50px;
+  width: 400px;
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+.rating:nth-child(2) {
+  margin-left: 3rem;
+}
+.rating:nth-child(3) {
+  margin-left: 6rem;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.review {
+  height: 300px;
+  width: 400px;
+  background-color: hsl(300, 43%, 22%);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 3rem;
+  border-radius: 5px;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  align-items: center;
+}
+.profile img {
+  border-radius: 50%;
+}
+
+.review:nth-child(2) {
+  margin-top: 2rem;
+}
+.review:nth-child(3) {
+  margin-top: 4rem;
+}
